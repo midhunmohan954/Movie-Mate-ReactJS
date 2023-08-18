@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import noImage from "../assets/images/no-image.AVIF";
+import noImage from "../assets/images/0_QOZm9X5er1Y0r5-t.jpg";
 export const MovieDetail = () => {
   const params = useParams();
   const [movie, setMovie] = useState([]);
