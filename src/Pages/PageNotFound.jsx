@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import noImage from "../../public/0_QOZm9X5er1Y0r5-t.jpg";
+import noImage from "../assets/images/0_QOZm9X5er1Y0r5-t.jpg"
 export const PageNotFound = () => {
   return (
     <main>
