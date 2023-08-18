@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import noImage from "../../public/no-image.avif"
+import noImage from "../assets/images/no-image.avif"
 export const Card = ({ data }) => {
   const { id, original_title ,poster_path,overview} = data;
 
