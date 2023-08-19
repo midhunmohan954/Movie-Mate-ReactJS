@@ -18,10 +18,9 @@ export const MovieDetail = () => {
     fetchData();
   }, [movie]);
 
-useEffect(()=>{
-document.title=`${movie.title}/MovieMate`
-})
-
+  useEffect(() => {
+    document.title = `${movie.title}/MovieMate`;
+  });
 
   return (
     <main>
@@ -77,11 +76,15 @@ document.title=`${movie.title}/MovieMate`
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Release Date:</span>
-            <span>{movie.release_data} min</span>
+            <span>{movie.release_date}</span>
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">IMDB Code:</span>
-            <a href={`https://www.imdb.com/title/${movie.imdb_id} `} target="_blank" rel="noreferrer">
+            <a
+              href={`https://www.imdb.com/title/${movie.imdb_id} `}
+              target="_blank"
+              rel="noreferrer"
+            >
               {movie.imdb_id}{" "}
             </a>
           </p>
