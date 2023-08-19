@@ -12,7 +12,7 @@ useEffect(()=>{
   return (
     <main>
       <section className="max-w-7xl flex  mx-auto py-7">
-        <div className="flex justify-start flex-wrap other:justify-evenly ml-7">
+        <div className="flex justify-start flex-wrap other:justify-evenly ">
           {movies?.map((data) => (
             <Card key={data.id} data={data} />
           ))}
